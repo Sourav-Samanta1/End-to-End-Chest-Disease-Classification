@@ -7,7 +7,7 @@ stages:
     outs:
       - artifacts/data_ingestion/Chest-CT-Scan-data
 
-  
+
   prepare_base_model:
     cmd: python src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
     deps:
