@@ -106,6 +106,7 @@ stages:
         - 224
         - 224
         - 3
+
     outs:
     - path: scores.json
       hash: md5
